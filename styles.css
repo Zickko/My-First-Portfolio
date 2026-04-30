@@ -1,13 +1,21 @@
 /* CSS by Miko Bargas */
-/* Color Palette
+/* 
+Mobile: Color Palette
 off-white:#F2F2F2
 shadow-blue:#68A0A6
 olive-green:#98A668
 dirty-brown:#736B53
 deep black:#0D0D0D 
+
+Color Palette for Desktop:
+formal-green:#A6A6A6 
+matted-green:#8C8C8C
+darkforset-green:#595959
+shadow-gray:#262626
+piano-black:#0D0D0D
 */
 
 /* Global (base) MOBILE FIRST */
 body{
-    background-color:#68A0A6;
+    background-color: #A6A6A6;
 }
