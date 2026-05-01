@@ -16,6 +16,49 @@ piano-black:#0D0D0D
 */
 
 /* Global (base) MOBILE FIRST */
+header,footer {
+    grid-column: 1/3;
+    background-color:#595959;
+    color:#A6A6A6;
+    text-align: center;
+    padding: 1em;
+    border-radius: 12px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    list-style: none;
+    padding: 1.3rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    text-decoration: none;
+    background-color:#262626;
+    padding: 2rem 3rem;
+    color:#A6A6A6;
+    font-size: 1rem;
+    text-align: none;
+    text-transform: uppercase;
+    border-radius: 12px;
+}
 body{
     background-color: #A6A6A6;
+}
+main {
+    text-align: center;
+    background-color: #8C8C8C;
+    color:#262626;
+    margin:auto;
+    padding: 1em;
+    border: 2px solid #0D0D0D;
+    border-radius: 12px;
+}
+.hobby-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
