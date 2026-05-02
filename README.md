@@ -11,4 +11,4 @@ about.html
 resume.html
 portfolio.html
 # published website URL
-
+https://zickko.github.io/My-First-Portfolio/
